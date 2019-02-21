@@ -72,12 +72,12 @@
       difference
     } = this;
 
-    const moreText = `(The sum of the first subarray is ${sumOne}, the sum of the second subarray is ${sumTwo}, the difference is ${difference}.)`;
+    const moreText = `(The sum of the first subarray is <b>${sumOne}</b>, the sum of the second subarray is <b>${sumTwo}</b>, the difference is <b>${difference}<b>.)`;
 
     $outputSetOne.innerText = `[${subsetOne.toString()}]`;
     $outputSetTwo.innerText = `[${subsetTwo.toString()}]`;
     $outputDiff.innerText = `${difference.toString()}`;
-    $more.innerText = moreText;
+    $more.innerHTML = moreText;
   }
 
   function init() {
