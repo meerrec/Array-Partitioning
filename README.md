@@ -8,11 +8,17 @@ Divide a given array of numbers into two subarrays such that the **absolute diff
 
 ####  For example:
 Input: 
+
 6
+
 4, 15, 20, 2, 7, 5 
  
 Output: 
+
 [15, 7, 4] 
+
 [20, 5, 2] 
+
 1 
+
 (The sum of the first subarray is **26**, the sum of the second subarray is **27**, the difference is 1.)
